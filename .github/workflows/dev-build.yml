@@ -33,7 +33,7 @@ jobs:
           git submodule update --init --recursive
           ./reaper jar
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: Reaper-JDK8
           path: reaper-paperclip.jar
